@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2? family = Pattaya & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Mate + SC & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+#barre{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height:80px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: fixed;
+    top: 0;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+/* FIN HEADER */
+
+/* HOME */
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: royalblue;
+}
+#me{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30vh;
+}
+#btn{
+    padding-top: 15vh;
+}
+#social_link{
+    display: flex;
+    padding-top: 15vh;
+   row-gap: 150px;
+}
+
+
+
+
+
+
+
+/* ABOUT */
+#about{
+    
+    height: 100vh;
+    width: 100%;
+}
+#about h1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+/* PROJETS */
+#projets{
+    height: 100vh;
+    width: 100%;
+    background-color: rosybrown;
+}
+#projets h1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+/* PARCOURS */
+#parcours{
+    /* height: 200vh; */
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#parcours h1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+#employeurs{
+    padding-top: 150px;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap:30px;
+        column-gap:30px
+}
+
+#societe{
+    width: 320px;
+    height: 450px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+     backdrop-filter: blur(10px);
+     box-shadow: 0 0 40px rgba(8,7,16,0.6) ;
+     border-radius: 25px;
+
+}
+
+#logosociete{
+    margin-top: 10px;
+    width: 90%;
+    height: 25%;
+    /* border: 1px solid blue; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+   
+}
+#logosociete img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#titresociete{
+    margin-top: 20px;
+    font-weight: 600;
+}
+#periodeemploi{
+    margin-top: 20px;
+}
+#descriptionemploi{
+    margin-top: 50px;
+}
+
+/* CONTACT */
+#contact{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+}
+#contact h1{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+#formulaire{
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+form ::placeholder{
+    padding:5px;
+}
+
+/* FOOTER */
+#footer{
+    background-color: red;
+    width: 100%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* $primary-color: #191516;
+$secondary-color: #FEFEFF;
+$third-color: #FE9000;
+$color4: #3ed3cb; */
