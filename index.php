@@ -59,6 +59,26 @@
     
     <section id="projets">
         <h1>Mes Projets</h1>
+
+        <div id="container">
+            <div id="projet"><img src="IMG/projet1.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet2.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet3.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet4.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet5.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet6.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet7.png" alt=""></div>
+            <div id="projet"><img src="IMG/projet8.png" alt=""></div>
+            <div id="projet"><img src="IMG/Budget.jpg" alt=""></div>
+            <div id="projet"><img src="IMG/API.jpg" alt=""></div>
+            <div id="projet"><img src="IMG/cuisine.jpg" alt=""></div>
+            <div id="projet"><img src="IMG/foodshare.jpg" alt=""></div>
+            <div id="projet"><img src="IMG/tchat.jpg" alt=""></div>
+
+
+
+
+        </div>
     </section>
 
     <section id="parcours">
@@ -142,7 +162,7 @@
 
     <footer>
     <div id="footer">
-      <p>Copyright &copy; 2021 Anthony SIMONNEAU. All Rights Reserved</p>
+      <p>Copyright &copy; 2021 Anthony SIMONNEAU.<br> All Rights Reserved</p>
     </div>
     </footer>
 

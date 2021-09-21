@@ -19,6 +19,7 @@
     position: fixed;
     top: 0;
 }
+
 #menu{
     display: flex;
     flex-direction: row;
@@ -37,6 +38,7 @@
     color: white;
 
 }
+
 #me{
     display: flex;
     justify-content: center;
@@ -45,26 +47,25 @@
     flex-direction: column;
     padding-top: 30vh;
 }
+
 #btn{
     padding-top: 15vh;
 }
+
 #social_link{
     display: flex;
     padding-top: 15vh;
    row-gap: 150px;
 }
-
-
-
-
-
-
+/* FIN HOME */
 
 /* ABOUT */
+
 #about{
     margin-bottom: 100px;
     width: 100%;
 }
+
 #about h1{
     padding-top: 100px;
     padding-left: 20px;
@@ -80,6 +81,7 @@
     align-items: center;
     /* flex-direction: column; */
 }
+
 #photoprofil{
     width: 320px;
     height: 450px;
@@ -88,6 +90,7 @@
      border-radius: 50%;
      overflow: hidden;
 }
+
 #photoprofil img{
     object-fit: cover;
     width: 100%;
@@ -99,18 +102,49 @@
     margin-top: 50px;
     padding: 10px;
 }
+/* FIN ABOUT */
 
 /* PROJETS */
 #projets{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
+    background-image: url(../IMG/polygon.svg);
     
     
 }
+
 #projets h1{
     padding-top: 100px;
     padding-left: 20px;
+    color: white;
 }
+
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    row-gap:30px;
+    column-gap:30px
+    
+}
+#projet{
+    width: 340px;
+    height: 220px;
+    overflow: hidden;
+    
+    
+}
+#projet img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* FIN PROJET */
 
 /* PARCOURS */
 #parcours{
@@ -119,6 +153,7 @@
     margin-bottom: 100px;
    
 }
+
 #parcours h1{
     padding-top: 100px;
     padding-left: 20px;
@@ -133,13 +168,12 @@
     align-items: center;
     flex-wrap: wrap;
     row-gap:30px;
-        column-gap:30px
+    column-gap:30px
 }
 
 #societe{
     width: 320px;
     height: 450px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -149,20 +183,18 @@
      backdrop-filter: blur(10px);
      box-shadow: 0 0 40px rgba(8,7,16,0.6) ;
      border-radius: 25px;
-
 }
 
 #logosociete{
     margin-top: 10px;
     width: 90%;
     height: 25%;
-    /* border: 1px solid blue; */
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    overflow: hidden;
-   
+    overflow: hidden;  
 }
+
 #logosociete img{
     object-fit: cover;
     width: 100%;
@@ -173,22 +205,24 @@
     margin-top: 20px;
     font-weight: 600;
 }
+
 #periodeemploi{
     margin-top: 20px;
 }
+
 #descriptionemploi{
     margin-top: 50px;
 }
+/* FIN PARCOURS */
 
 /* CONTACT */
 #contact{
     height: 100vh;
     width: 100%;
-    /* background-color: grey */
     background-image:
     linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
-    
 }
+
 #contact h1{
     padding-top: 100px;
     padding-left: 20px;
@@ -201,6 +235,7 @@
     flex-direction: row;
 
 }
+
 #cadre{
     width: 320px;
     height: 400px;
@@ -208,6 +243,7 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 0 40px rgba(8,7,16,0.6) ;
 }
+
 form{
     display: flex;
     justify-content: center;
@@ -215,6 +251,7 @@ form{
     align-items: center;
     flex-direction: column;
 }
+
 input{
     width: 280px;
     height: 30px;
@@ -223,6 +260,7 @@ input{
     background-color: transparent;
 
 }
+
 form button{
     margin-top: 30px;
     width: 150px;
@@ -232,10 +270,12 @@ form button{
 
 
 }
+
 form ::placeholder{
     padding:5px;
     color: black;
 }
+
 textarea{
     margin-top: 30px;
     resize: none;
@@ -247,6 +287,7 @@ textarea{
 
 
 }
+
 #admin {
     display: flex;
     justify-content: center;
@@ -255,6 +296,7 @@ textarea{
     margin-top: 30px;
     padding-bottom: 30px;
 }
+/* FIN CONTACT */
 
 /* FOOTER */
 #footer{
