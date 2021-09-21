@@ -128,13 +128,16 @@
         <h1>Contact</h1>
 
         <div id="formulaire">
-            <form action="">
-                <input type="text" placeholder="Votre nom">
-                <input type="text" placeholder="Votre mail">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
+            <div id="cadre">
+                <form action="">
+                    <input type="text" placeholder="Votre nom">
+                    <input type="text" placeholder="Votre mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
         </div>
+        <div id="admin"><img src="IMG/star.png"  width="50px" height="50px"></div>
     </section>
 
     <footer>
