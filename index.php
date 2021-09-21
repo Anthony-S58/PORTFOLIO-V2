@@ -50,8 +50,13 @@
 
     <section id="about">
         <h1>A Propos</h1>
+        <div id="pics">
+            <div id="photoprofil"><img src="IMG/portrait.jpg" alt=""></div>
+            <div id="skills"></div>
+        </div>
+        <div id="texteprofil">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.</div>
     </section>
-
+    
     <section id="projets">
         <h1>Mes Projets</h1>
     </section>
