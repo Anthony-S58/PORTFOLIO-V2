@@ -51,10 +51,14 @@
     <section id="about">
         <h1>A Propos</h1>
         <div id="pics">
-            <div id="photoprofil"><img src="IMG/portrait.jpg" alt=""></div>
-            <div id="skills"></div>
+            <div id="photoprofil"></div>
+            <div id="texte">
+                <h2>Titre de la section à propos</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.</p>
+            </div>
         </div>
-        <div id="texteprofil">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.</div>
+        
+        <div id="skills"></div>
     </section>
     
     <section id="projets">
@@ -87,7 +91,8 @@
         <div id="employeurs">
             <div id="societe">
                 <div id="logosociete"><img src="IMG/logoacs.jpg" alt=""></div>
-                <div id="titresociete">Developpeur web et web mobile</div>
+                <div id="titresociete">ACCESS CODE SCHOOL</div>
+                <div id="poste">Développeur Web / Web Mobile</div>
                 <div id="periodeemploi">De mars 2021 à décembre 2021</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
@@ -95,7 +100,8 @@
             </div>
             <div id="societe">
                 <div id="logosociete"><img src="IMG/logomgen.jpg" alt=""></div>
-                <div id="titresociete">Conseiller en santé et prévoyance</div>
+                <div id="titresociete">MGEN</div>
+                <div id="poste">Conseiller en Santé et Prévoyance</div>
                 <div id="periodeemploi">De mars 2019 à septembre 2019</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
@@ -103,40 +109,45 @@
             </div>
             <div id="societe">
                 <div id="logosociete"><img src="IMG/logoarmatis.jpg" alt=""></div>
-                <div id="titresociete">Téléconseiller CAF</div>
-                <div id="periodeemploi">test</div>
+                <div id="titresociete">ARMATIS BOURGOGNE</div>
+                <div id="poste">Téléconseiller CAF</div>
+                <div id="periodeemploi">De octobre 2016 à octobre 2017</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
             obcaecati ex eveniet recusandae, ea aperiam soluta temporibus.</div>
             </div>
             <div id="societe">
                 <div id="logosociete"><img src="IMG/logoasetys.jpg" alt=""></div>
-                <div id="titresociete">Gestionnaire en assurances</div>
-                <div id="periodeemploi">test</div>
+                <div id="titresociete">ASETYS</div>
+                <div id="poste">Gestionnaire en Assurances</div>
+                <div id="periodeemploi">De septembre 2014 à septembre 2015</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
             obcaecati ex eveniet recusandae, ea aperiam soluta temporibus.</div>
             </div>
             <div id="societe">
                 <div id="logosociete"><img src="IMG/logocarepolis.jpg" alt=""></div>
-                <div id="titresociete">Préparateur automobile</div>
-                <div id="periodeemploi">test</div>
+                <div id="titresociete">GROUPE CAREPOLIS</div>
+                <div id="poste">Préparateur Automobile</div>
+                <div id="periodeemploi">De septembre 2010 à septembre 2013</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
             obcaecati ex eveniet recusandae, ea aperiam soluta temporibus.</div>
             </div>
             <div id="societe">
                 <div id="logosociete"><img src="" alt=""></div>
-                <div id="titresociete">Téléconseiller</div>
-                <div id="periodeemploi">test</div>
+                <div id="titresociete">MTELESERVICES</div>
+                <div id="poste">Téléconseiller</div>
+                <div id="periodeemploi">De mars 2009 à juin 2009</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
             obcaecati ex eveniet recusandae, ea aperiam soluta temporibus.</div>
             </div>
             <div id="societe">
                 <div id="logosociete"><img src="IMG/logotheatre.jpg" alt=""></div>
-                <div id="titresociete">Hôte d'accueil</div>
-                <div id="periodeemploi">test</div>
+                <div id="titresociete">THEÂTRE DE DRAGUIGNAN</div>
+                <div id="poste">Hôte d'Accueil</div>
+                <div id="periodeemploi">De septembre 2006 à juillet 2010</div>
                 <div id="descriptionemploi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
             voluptas aspernatur, nostrum veritatis quasi sequi totam tempore
             obcaecati ex eveniet recusandae, ea aperiam soluta temporibus.</div>

@@ -74,13 +74,23 @@
 #pics{
     width: 100%;
     margin-top: 100px;
-    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px;
+    shape-outside: circle();
+}
+#texte{
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    /* flex-direction: column; */
+    flex-direction: column;
+    padding: 50px;
+    height: 450px;
+    width: 740px;
 }
+
 
 #photoprofil{
     width: 320px;
@@ -89,17 +99,21 @@
      box-shadow: 0 0 40px rgba(8,7,16,0.6) ;
      border-radius: 50%;
      overflow: hidden;
-}
-
-#photoprofil img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
+     background: url(../IMG/portrait.jpg);
+     background-size: 100% 100%;
+float: left;
+     shape-outside:circle();
+    }
+    
+    /* #photoprofil img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+} */
 
 
 #texteprofil{
-    margin-top: 50px;
+   
     padding: 10px;
 }
 /* FIN ABOUT */
@@ -180,8 +194,10 @@
     text-align: center;
     align-items: center;
     overflow: hidden;
-     backdrop-filter: blur(10px);
-     box-shadow: 0 0 40px rgba(8,7,16,0.6) ;
+     /* backdrop-filter: blur(10px); */
+     background-image:
+    linear-gradient(to top, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+     /* box-shadow: 0 0 40px rgba(8,7,16,0.6) ; */
      border-radius: 25px;
 }
 
@@ -205,13 +221,17 @@
     margin-top: 20px;
     font-weight: 600;
 }
+#poste{
+    margin-top: 20px;
+    font-weight: 600;
+}
 
 #periodeemploi{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #descriptionemploi{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 /* FIN PARCOURS */
 
@@ -219,8 +239,10 @@
 #contact{
     height: 100vh;
     width: 100%;
-    background-image:
-    linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+    background-image: url(../IMG/low.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 #contact h1{
@@ -257,7 +279,8 @@ input{
     height: 30px;
     margin-top: 30px;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: black;
+    color: white;
 
 }
 
@@ -266,14 +289,15 @@ form button{
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    background-color: transparent;
-
+    background-color: black;
+    color: white;
 
 }
 
 form ::placeholder{
     padding:5px;
-    color: black;
+    
+    color: white;
 }
 
 textarea{
@@ -283,8 +307,8 @@ textarea{
     height: 150px;
     border-radius: 5px;
     border: 1px solid black;
-    background-color: transparent;
-
+    background-color: black;
+    color: white;
 
 }
 
