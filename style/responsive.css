@@ -1,0 +1,8 @@
+@media screen and (max-width: 700px){
+    #pics{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+};
+    

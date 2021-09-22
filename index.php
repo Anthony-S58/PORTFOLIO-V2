@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>Portfolio-V2</title>
 </head>
 <body>
@@ -65,19 +66,19 @@
         <h1>Mes Projets</h1>
 
         <div id="container">
-            <div id="projet"><img src="IMG/projet1.png" alt=""></div>
-            <div id="projet"><img src="IMG/projet2.png" alt=""></div>
-            <div id="projet"><img src="IMG/projet3.png" alt=""></div>
-            <div id="projet"><img src="IMG/projet4.png" alt=""></div>
-            <div id="projet"><img src="IMG/projet5.png" alt=""></div>
+        <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet1"><img src="IMG/projet1.png" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet2"><img src="IMG/projet2.png" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet3"><img src="IMG/projet3.png" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet4"><img src="IMG/projet4.png" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet5"><img src="IMG/projet5.png" alt=""></a></div>
             <div id="projet"><img src="IMG/projet6.png" alt=""></div>
-            <div id="projet"><img src="IMG/projet7.png" alt=""></div>
-            <div id="projet"><img src="IMG/projet8.png" alt=""></div>
-            <div id="projet"><img src="IMG/Budget.jpg" alt=""></div>
-            <div id="projet"><img src="IMG/API.jpg" alt=""></div>
-            <div id="projet"><img src="IMG/cuisine.jpg" alt=""></div>
-            <div id="projet"><img src="IMG/foodshare.jpg" alt=""></div>
-            <div id="projet"><img src="IMG/tchat.jpg" alt=""></div>
+            <div id="projet"><a href="https://github.com/Anthony-S58/SYMFONYPROJECT"><img src="IMG/projet7.png" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet8"><img src="IMG/projet8.png" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet9"><img src="IMG/Budget.jpg" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/Meteo"><img src="IMG/API.jpg" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/ACS_Projet10"><img src="IMG/cuisine.jpg" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/Foodshare"><img src="IMG/foodshare.jpg" alt=""></a></div>
+            <div id="projet"><a href="https://www.anthony-simonneau.fr/Tchat"><img src="IMG/tchat.jpg" alt=""></a></div>
 
 
 
