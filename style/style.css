@@ -15,9 +15,26 @@
     padding: 20px;
     height:80px;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.329);
+    background-color: rgba(128, 128, 128, 0.555);
     position: fixed;
     top: 0;
+}
+a{
+    text-decoration: none;
+
+}
+#name h1{
+    color:orange;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: orange;
 }
 
 #menu{

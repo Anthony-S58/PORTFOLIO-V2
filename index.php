@@ -11,13 +11,13 @@
 <body>
     <header id="barre">
         
-            <div id="name"><a href="#home"><h1><span>A</span>nthony <span>S</span>imonneau</h1></a></div>
+            <div id="name"><a href="#home"><h1><span>A</span><span>S</span></h1></a></div>
             <div id="menu">
                 <ul>
-                    <li><a href="#about"  class="linkburger" data-after="A Propos">A Propos</a></li>
-                    <li><a href="#projets" class="linkburger" data-after="Projets">Mes Projets</a></li>
-                    <li><a href="#parcours" class="linkburger" data-after="Parcours">Mon Parcours</a></li>
-                    <li><a href="#contact" class="linkburger" data-after="Contact">Contact</a></li>
+                    <li><a href="#about">A Propos</a></li>
+                    <li><a href="#projets">Mes Projets</a></li>
+                    <li><a href="#parcours">Mon Parcours</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         
@@ -55,7 +55,7 @@
             <div id="photoprofil"></div>
             <div id="texte">
                 <h2>Titre de la section à propos</h2><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti. Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptates harum incidunt recusandae consequatur libero non corrupti.<br> Facere dolore eum voluptates ex officiis consequuntur odit rem, eos blanditiis molestiae. Voluptatum.</p>
             </div>
         </div>
         

@@ -3,6 +3,9 @@
         flex-direction: column;
         padding: 20px;
     }
+    #texte{
+        width: 320px;
+    }
 
 };
     
